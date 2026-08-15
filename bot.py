@@ -9,7 +9,7 @@ from aiohttp import web
 # ====== CONFIG ======
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8836862263:AAGfdDIAUsbsGwXQgCjx5b0QN0-gIb6m_wQ")
 DATA_FILE = "data.json"
-API_BASE = "https://number-info-api-geniushacker29.vercel.app/api/lookup?number={}"
+API_BASE = "https://bronx-web-api.onrender.com/api/key-bronx/number?key=happy&num=9876543210"
 PORT = int(os.getenv("PORT", 8080))
 # ===================
 
